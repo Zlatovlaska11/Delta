@@ -1,2 +1,2 @@
 # Delta
-programz na ukázku pro SŠ delta 
+programy na ukázku o dlouhodobý zájem o studium na SŠ Delta Pardubice
