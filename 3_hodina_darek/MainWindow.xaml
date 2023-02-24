@@ -1,0 +1,15 @@
+﻿<Window x:Class="_3_hodina_darek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3_hodina_darek"
+        mc:Ignorable="d"
+        Title="ChytDarecek" Height="800" Width="800">
+    <Grid x:Name="plocha" Background="#FF00C5FF">
+        <Image x:Name="strom" HorizontalAlignment="Left" Height="300" Margin="226,214,0,0" VerticalAlignment="Top" Width="300" Source="obr/strom.png" MouseLeftButtonDown="strom_MouseLeftButtonDown"/>
+        <Image x:Name="darek" HorizontalAlignment="Left" Height="200" Margin="260,549,0,0" VerticalAlignment="Top" Width="200" Source="obr/darek.png" MouseLeftButtonDown="darek_MouseLeftButtonDown"/>
+        <Label x:Name="skore" Content="0" HorizontalAlignment="Left" Margin="637,108,0,0" VerticalAlignment="Top" Height="100" Width="100" FontSize="36"/>
+
+    </Grid>
+</Window>
